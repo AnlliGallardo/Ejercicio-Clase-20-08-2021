@@ -1,23 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? familia=Klee+Uno:wght@600&display=swap');
+
 html {
     min-height: 50%;
   }
   body {
     margin: 10%;
     padding: 0;
-    font-family: sans-serif;
-    background-color: #130468ec ;
+    font-family: 'Klee One', cursiva;
+    font-weight: bold;
+    background-color:rgb(1, 75, 29);
     min-height: 50%;
     padding-bottom: 5rem;
-    font-size: 13px;
+    font-size: 20px;
+    color: black;
   }
   
   header {
     margin-top: 3rem;
   }
+
   header h1 {
     color: white;
   }
 
+  #inputBuscar{
+    border-radius: 10px;
+  }
+
+  #btnBuscar{
+    border: none;
+    background-color:greenyellow;
+  }
 
   #sura{
     color: white;
@@ -26,3 +39,5 @@ html {
   .label{
     color: white;
   }
+
+  
